@@ -114,7 +114,7 @@ series_bar <- function(lst, type, subtype, return=NULL, ...){
             stop('y must only have one value corresponding to each combination of x and series')
         })
         idx <- match(unique(data[,2]),rownames(dataCross))
-        dataCross <- dataCross[idx,]
+        dataCross <- dataCross[idx, , drop=FALSE]
         #rownames(dataCross) <- data[,2]
         data <- dataCross
 
