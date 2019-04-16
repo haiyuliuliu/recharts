@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/madlogos/recharts.svg?branch=master)](https://travis-ci.org/madlogos/recharts)
+[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
 v 0.2
 
